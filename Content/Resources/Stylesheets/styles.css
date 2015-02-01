@@ -684,3 +684,30 @@ table
 	mc-caption-continuation: '___cont\'d';
 }
 
+td.john
+{
+	margin: 8px;
+	vertical-align: top;
+	border-bottom: solid 1px #f08080;
+	border-bottom-left-radius: 2px;
+}
+
+table.john
+{
+	mc-caption-continuation: '___cont\'d';
+	width: 100%;
+	caption-side: top;
+	mc-caption-repeat: true;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-color: #7fff00;
+	border-bottom: solid 1px;
+}
+
+table.fasdfdsaf
+{
+	mc-caption-repeat: true;
+	mc-caption-continuation: '___cont\'d';
+	border: solid 5px;
+}
+
