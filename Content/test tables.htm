@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2493" MadCap:lastWidth="841">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="3238" MadCap:lastWidth="1558">
     <head>
         <link href="Resources/TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>test tables</h1>
-        <p>above non-styled table</p>
+        <h2>above non-styled table</h2>
         <table MadCap:conditions="RegularConditions.green,RegularConditions.red" MadCap:targetName="plain">
             <col />
             <col />
@@ -34,7 +34,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Maecenas sed augue a purus ornare tempus eu sed urna.</td>
+                    <td style="border-left-style: solid;border-left-width: 2px;border-left-color: #ffd700;border-right-style: solid;border-right-width: 2px;border-right-color: #ffd700;border-top-style: solid;border-top-width: 2px;border-top-color: #ffd700;border-bottom-style: solid;border-bottom-width: 2px;border-bottom-color: #ffd700;padding-left: 1in;padding-right: 1in;padding-top: 1in;padding-bottom: 1in;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-right-radius: 5px;border-bottom-left-radius: 5px;text-align: right;vertical-align: bottom;">Maecenas sed augue a purus ornare tempus eu sed urna.</td>
                     <td>&#160;</td>
                     <td>&#160;</td>
                     <td>Morbi ut elit scelerisque, tempus nunc in, viverra augue.</td>
@@ -46,7 +46,7 @@
                     <td>&#160;</td>
                 </tr>
                 <tr>
-                    <td>&#160;</td>
+                    <td style="text-transform: uppercase;text-decoration: underline overline;font-size: 16pt;font-family: 'Brush Script Std';color: #afeeee;background-color: #ffa500;">x;border-bottom-color: #00ff7f;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;"&gt;Maecenas sed augue a purus ornare tempus eu sed urna.&lt;/td&gt;</td>
                     <td>&#160;</td>
                     <td>&#160;</td>
                     <td>&#160;</td>
@@ -58,7 +58,7 @@
                     <td>&#160;</td>
                 </tr>
                 <tr>
-                    <td>bVestibulum vel urna id tellus placerat laoreet vel quis eros.</td>
+                    <td class="john">bVestibulum vel urna id tellus placerat laoreet vel quis eros.</td>
                     <td>&#160;</td>
                     <td>&#160;</td>
                     <td>
@@ -116,7 +116,10 @@
                     <td>&#160;</td>
                     <td>&#160;</td>
                     <td>&#160;</td>
-                    <td>&#160;</td>
+                    <td>
+                        <object src="Resources/Multimedia/Bear.mpg">
+                        </object>
+                    </td>
                     <td>dwqdwd</td>
                     <td>&#160;</td>
                 </tr>
@@ -133,15 +136,38 @@
                     <td>&#160;</td>
                 </tr>
                 <tr MadCap:conditions="RegularConditions.red">
-                    <td>3</td>
+                    <td>3<MadCap:dropDown><MadCap:dropDownHead><MadCap:dropDownHotspot>(This is the Drop-down Hotspot)</MadCap:dropDownHotspot></MadCap:dropDownHead><MadCap:dropDownBody><p>(This is the Drop-down text)</p></MadCap:dropDownBody></MadCap:dropDown></td>
+                    <td>
+                        <MadCap:snippetText src="Resources/Snippets/NewSnippet.flsnp" />
+                    </td>
                     <td>&#160;</td>
+                    <td>
+                        <MadCap:expanding>
+                            <MadCap:expandingHead>Click Me:</MadCap:expandingHead>
+                            <MadCap:expandingBody>testing</MadCap:expandingBody>
+                        </MadCap:expanding>
+                    </td>
                     <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
+                    <td>
+                        <p>
+                            <MadCap:toggler targets="non_styled">Click Me!</MadCap:toggler>
+                        </p>
+                        <p MadCap:targetName="test1">test non-styled</p>
+                    </td>
+                    <td>
+                        <MadCap:popup>
+                            <MadCap:popupHead>Click Me!</MadCap:popupHead>
+                            <MadCap:popupBody>test 1</MadCap:popupBody>
+                        </MadCap:popup>
+                    </td>
+                    <td>
+                        <div>
+                            <p>DivTwo</p>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="Resources/Images/image1.png" />
+                    </td>
                     <td>&#160;</td>
                 </tr>
                 <tr>
@@ -184,9 +210,10 @@
                 </tr>
             </tfoot>
         </table>
-        <p>below non-styled table</p>
+        <h2>below non-styled table</h2>
         <p>&#160;</p>
-        <p>above styled table</p>
+        <p> </p>
+        <h2>above styled table</h2>
         <table style="mc-caption-repeat: true;margin-left: auto;margin-right: auto;mc-table-style: url('Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="RegularConditions.Advanced,RegularConditions.Beginner,RegularConditions.green,RegularConditions.red" MadCap:targetName="styled">
             <col style="width: 243px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -214,7 +241,7 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Maecenas sed augue a purus ornare tempus eu sed urna.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="background-color: #ff6347;vertical-align: bottom;text-indent: 6px;line-height: 21px;border-left-style: ridge;border-left-width: 3px;border-left-color: #00ff7f;border-right-style: ridge;border-right-width: 3px;border-right-color: #00ff7f;border-top-style: ridge;border-top-width: 3px;border-top-color: #00ff7f;border-bottom-style: ridge;border-bottom-width: 3px;border-bottom-color: #00ff7f;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;">Maecenas sed augue a purus ornare tempus eu sed urna.</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Morbi ut elit scelerisque, tempus nunc in, viverra augue.</td>
@@ -226,9 +253,9 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-decoration: underline overline line-through;font-variant: small-caps;text-transform: uppercase;font-family: fantasy;color: #00ffff;background-color: #adff2f;">wqdwqdwqdwqdwqdwqd wdq dwqx;border-bottom-color: #00ff7f;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;"&gt;Maecenas sed augue a purus ornare tempus eu sed urna.&lt;/td&gt;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">dwq</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">d</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-DarkShade-DarkerRows">&#160;</td>
@@ -258,7 +285,10 @@
                         </table>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
-                    <td colspan="2" class="TableStyle-PatternedRows-BodyE-DarkShade-LightRows">&#160;</td>
+                    <td colspan="2" class="TableStyle-PatternedRows-BodyE-DarkShade-LightRows">
+                        <object src="Resources/Multimedia/fight3.swf" style="width: 400px;height: 225px;">
+                        </object>
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p class="done">Phasellus ut libero in ex ultricies eleifend.</p>
@@ -266,13 +296,46 @@
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-DarkShade-DarkerRows">&#160;</td>
-                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot>(This is the Drop-down Hotspot)</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>(This is the Drop-down text)</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <MadCap:snippetText src="Resources/Snippets/NewSnippet1.flsnp" />
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <MadCap:expanding>
+                            <MadCap:expandingHead>Click Me:</MadCap:expandingHead>
+                            <MadCap:expandingBody>testing</MadCap:expandingBody>
+                        </MadCap:expanding>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>
+                            <MadCap:toggler targets="styled">Click Me!</MadCap:toggler>
+                        </p>
+                        <p MadCap:targetName="non_styled">test styled</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <MadCap:popup>
+                            <MadCap:popupHead>Click Me!</MadCap:popupHead>
+                            <MadCap:popupBody>test2
+</MadCap:popupBody>
+                        </MadCap:popup>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-DarkShade-DarkerRows">
+                        <div>
+                            <p>DivOne</p>
+                        </div>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <img src="Resources/Images/image2.png" />
+                    </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
@@ -365,7 +428,7 @@
                 </tr>
             </tfoot>
         </table>
-        <p>below styled table</p>
+        <h2>below styled table</h2>
         <table style="margin-left: auto; margin-right: auto;">
             <col />
             <col />
