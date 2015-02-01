@@ -688,8 +688,8 @@ td.john
 {
 	margin: 8px;
 	vertical-align: top;
-	border-bottom: solid 1px #f08080;
-	border-bottom-left-radius: 2px;
+	color: #7fff00;
+	text-decoration: overline;
 }
 
 table.john
