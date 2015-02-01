@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="HTML5 Output"
@@ -6,12 +6,11 @@
   Destinations=""
   GlossaryTermConversion="marked"
   DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
-  ConditionTagExpression="include[General.Advanced] exclude[General.Beginner] "
+  ConditionTagExpression="include[General.red]exclude[General.green]"
   InsertMOTW="true"
   MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
   AliasFile="/Project/Advanced/AliasFile.flali"
   EnableSitemap="false"
   IncludeStopWords="true"
   GenerateWebSafeImages="true"
-  WebSafeFileExtension="png">
-</CatapultTarget>
+  WebSafeFileExtension="png"></CatapultTarget>
