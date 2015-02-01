@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 body
 {
@@ -670,3 +670,12 @@ ul.SecondLevel
 	list-style-image: url('../Images/Bullet2.png');
 	margin-left: -10px;
 }
+
+
+p.done
+{
+	background-image: url('../Images/Capture5.png');
+	background-repeat: no-repeat;
+	height: 29px;
+}
+
