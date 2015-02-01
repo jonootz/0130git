@@ -1,4 +1,4 @@
-﻿/*<meta />*/
+/*<meta />*/
 
 body
 {
@@ -671,11 +671,16 @@ ul.SecondLevel
 	margin-left: -10px;
 }
 
-
 p.done
 {
 	background-image: url('../Images/Capture5.png');
 	background-repeat: no-repeat;
 	height: 29px;
+}
+
+table
+{
+	mc-caption-repeat: true;
+	mc-caption-continuation: '___cont\'d';
 }
 
