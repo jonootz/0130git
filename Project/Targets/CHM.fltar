@@ -5,7 +5,7 @@
   Type="HtmlHelp"
   Destinations=""
   GlossaryTermConversion="marked"
-  ConditionTagExpression="">
+  ConditionTagExpression="exclude[3X5NewSet.PrintOnly] ">
   <PrintedOutput
     CollapseMargins="true" />
 </CatapultTarget>
