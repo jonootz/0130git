@@ -4,7 +4,7 @@
         <link href="../TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table style="mc-caption-repeat: true;margin-left: auto;margin-right: auto;mc-table-style: url('../TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="General.red,General.green" MadCap:targetName="styled">
+        <table style="mc-caption-repeat: true;margin-left: auto;margin-right: auto;mc-table-style: url('../TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="RegularConditions.red,RegularConditions.green" MadCap:targetName="styled">
             <col style="width: 243px;" class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />

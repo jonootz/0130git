@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
-  ConditionTagExpression="include[General.green]exclude[General.red]"
+  ConditionTagExpression="include[RegularConditions.green]exclude[RegularConditions.red]"
   InsertMOTW="true"
   MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
   AliasFile="/Project/Advanced/AliasFile.flali"

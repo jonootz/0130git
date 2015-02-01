@@ -4,7 +4,7 @@
         <link href="../TableStyles/Simple.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <table MadCap:conditions="General.red,General.green" MadCap:targetName="plain">
+        <table MadCap:conditions="RegularConditions.red,RegularConditions.green" MadCap:targetName="plain">
             <col />
             <col />
             <col />
