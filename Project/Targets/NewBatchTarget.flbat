@@ -28,7 +28,7 @@
       Icon="System.Drawing.Bitmap"
       Name="Eclipse"
       Type="Eclipse Help"
-      Build="true"
+      Build="false"
       LastBuilt=""
       LastPublished="" />
     <Target
