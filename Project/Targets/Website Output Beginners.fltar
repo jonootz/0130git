@@ -5,7 +5,6 @@
   Type="WebHelp2"
   Destinations=""
   GlossaryTermConversion="marked"
-  DefaultUrl="/Content/A_Introduction Topics/Welcome.htm"
   ConditionTagExpression="include[RegularConditions.green]exclude[RegularConditions.red]"
   InsertMOTW="true"
   MasterPage="/Content/Resources/MasterPages/MasterPage.flmsp"
